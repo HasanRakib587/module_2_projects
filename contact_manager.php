@@ -48,11 +48,11 @@ while(true){
         echo "========== Saved Contacts ============== \n";
 
         if($name1 != ""){
-            echo "Contact 1: " . $name1 . " | " . $phone1;
+            echo "Contact 1: \n" . "Name: " . $name1 . " | " . "Phone: " . $phone1;
         }
 
         if($name2 != ""){
-            echo "Contact 2: " . $name2 . " | " . $phone2;
+            echo "Contact 2: \n" . "Name: " . $name2 . " | " . "Phone: " .$phone2;
         }
 
         if($name1 == "" && $name2 == ""){
